@@ -159,7 +159,9 @@ body {
     justify-content: center;
     gap: 40px;
 }
+
 /* =====SLIDER ========== */
+
 .swiper-slide {
     height: 100vh;
 }
