@@ -9,8 +9,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
   <link href="css/recet.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +35,29 @@
         </div>
       </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <section class="top">
+        <div class="container">
+          <h1 class="title">
+            Leasing From D&M
+          </h1>
+          <a href="#" class="top__link">
+            FIND A CAR
+          </a>
+        </div>
+      </section>
+      <div class="slider">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slider" style="background-image: url(images/slider-1.jpg);"></div>
+            <div class="swiper-slider" style="background-image: url(images/slider-1.jpg);"></div>
+            <div class="swiper-slider" style="background-image: url(images/slider-1.jpg);"></div>
+            <div class="swiper-slider" style="background-image: url(images/slider-1.jpg);"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </main>
     <footer class="footer">
       <div class="container">
         <nav class="footer__menu">
@@ -102,5 +126,8 @@
       </div>
     </footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
